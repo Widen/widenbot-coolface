@@ -1,6 +1,6 @@
 {
   "name": "widenbot-coolface",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "coolface plugin for widenbot",
   "main": "index.js",
   "scripts": {
