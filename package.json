@@ -1,0 +1,33 @@
+{
+  "name": "widenbot-coolface",
+  "version": "0.0.0",
+  "description": "coolface plugin for widenbot",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "unit-test": "tape ./test/*-test.js",
+    "coverage": "covert ./test/*-test.js",
+    "test": "npm run lint && npm run unit-test"
+  },
+  "keywords": [
+    "widenbot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Widen/widenbot-coolface.git"
+  },
+  "author": {
+    "name": "Mark Feltner",
+    "email": "mfeltner@widen.com",
+    "url": "http://widen.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "covert": "^1.1.0",
+    "jshint": "^2.8.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.3"
+  }
+}
